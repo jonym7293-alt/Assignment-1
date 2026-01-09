@@ -3,6 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+.font-inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
 
 .navbar{
   background-color: #ffffff;
@@ -40,20 +44,105 @@
 .menu a:hover{
   background-color: aliceblue;
 }
-
+/* navbar-button */
 .btn{
   background-color:rgba(0, 84, 0, 0.842);
   color: #ffffff;
   font-size: 15px;
   font-weight: 200;
   padding: 12px 16px;
-  border-radius: 5px;
+  border-radius: 7px;
   cursor: pointer;
 }
 
 .btn:hover{
-  background-color: greenyellow;
+  background-color: rgb(183, 215, 135);
+}
+/* banner-button */
+.banner-buttons{
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
 }
 
+.btn-1st{
+    background-color:rgba(0, 84, 0, 0.842);
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 200;
+  padding: 12px 16px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+.btn-1st:hover{
+  background-color: rgb(183, 215, 135);
+}
 
-  
+.btn-2nd{
+  background-color: transparent;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 200;
+  padding: 12px 16px;
+  border-radius: 7px;
+  cursor: pointer;
+  transition: color 0.5s
+}
+.btn-2nd:hover{
+  background: #d1cbcb;
+  color: #0a2337;
+}
+
+.banner {
+  height: 90vh;
+  background: url("./assets/hero-bg.png") center/cover no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.banner-content{
+  max-width: 950px;
+  padding: 20px;
+  color: #fff;
+  }
+
+  .banner-content .badge{
+    display:inline-flex;
+    align-items: center;
+    font-size: 15px;
+    background: #ffffff;
+    color:rgba(0, 84, 0, 0.842) ;
+    padding: 7px 15px;
+    border-radius: 25px;
+    gap: 12px;
+    margin-bottom: 16px;
+}
+
+  .banner-content .dot{
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color:rgba(0, 128, 0, 0.726) ;
+}
+
+.banner-content h1{
+  font-size: 68px;
+  line-height: 1.1;
+  margin-bottom: 14px;
+
+}
+
+.banner-content h1 span{
+  color: #3dbb77;
+}
+
+.banner-content p{
+  font-size: 18px;
+  line-height: 1.7;
+  color: #e6eef4;
+  margin-bottom: 25px;
+}
