@@ -146,3 +146,59 @@
   color: #e6eef4;
   margin-bottom: 25px;
 }
+
+.note-section{
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.note-container{
+  max-width: 1500px;
+  margin: 0, auto;
+}
+
+.section-heading h1{
+  font-size: 40px;
+  color: #001931;
+  margin-bottom: 8px;
+}
+
+.section-heading p{
+  font-size: 13px;
+  color: #7d8b9f;
+  margin-bottom: 44px;
+}
+
+.card-container{
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+}
+
+.card{
+  background: #fff;
+  border: 1px solid #f1f5f9;
+  border-radius: 10px;
+  padding: 30px 15px;
+  max-width: 300px;
+  box-shadow: 0 6px 50px 0 #00000011; 
+}
+
+.card img{
+  background-color: rgba(255, 0, 0, 0.651);
+  padding: 15px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.card h3{
+  font-size: 20px;
+  color: #121111;
+  margin-bottom:15px ;
+}
+
+.card p{
+  font-size:15px;
+  color: #64748b;
+  line-height: 20px;
+}
